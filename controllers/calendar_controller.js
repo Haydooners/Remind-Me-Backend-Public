@@ -145,7 +145,7 @@ exports.deleteCalendar = [
     }
 ]
 
-// Remove a user from a Calendar
+// Remove a user from a Calendar, still working on this didnt get a chance to try it last night.
 exports.removeUser = [
     body('ownerId').required().notEmpty().withMessage('Missing Calendar Owner ID'),
     body('removeId').required().notEmpty().withMessage('Missing removed user ID'),
